@@ -77,7 +77,7 @@ header nav a.activo {
 	max-width: 50%;
 	margin-bottom: 1.25em;
 }
-/*----------- Contenedor Titulo y Controles----------*/
+/*Contenedor Titulo*/
 
 .contenedor-titulo-controles h3 {
 	display: flex;
@@ -105,7 +105,7 @@ header nav a.activo {
 	background: red;
 }
 
-/* ---- ----- ----- Media Queries ----- ----- ----- */
+/*Procesos*/
 @media screen and (max-width: 800px) {
 	header .logotipo {
 		margin-bottom: 10px;
