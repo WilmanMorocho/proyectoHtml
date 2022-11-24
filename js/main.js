@@ -4,7 +4,7 @@ const peliculas = document.querySelectorAll('.pelicula');
 const flechaIzquierda = document.getElementById('flecha-izquierda')
 const flechaDerecha = document.getElementById('flecha-derecha')
 
-// event listener para flecha derecha
+// flecha derecha
 
 flechaDerecha.addEventListener('click', () => {
     fila.scrollLeft += fila.offsetWidth;
@@ -16,7 +16,7 @@ flechaDerecha.addEventListener('click', () => {
     }
 });
 
-// event listener felcha izquierda
+// flecha izquierda
 
 flechaIzquierda.addEventListener('click', () => {
     fila.scrollLeft -= fila.offsetWidth;
@@ -27,7 +27,7 @@ flechaIzquierda.addEventListener('click', () => {
     }
 })
 
-// Paginacion
+// Paginas
 
 const numeroPaginas = Math.ceil(peliculas.length / 5);
 for (let i = 0; i < numeroPaginas; i++) {
