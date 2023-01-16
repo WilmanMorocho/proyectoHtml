@@ -8,7 +8,7 @@ package evaluacion2u;
  *
  * @author Usuario Pc
  */
-public class Inicio {
+public class Inicio extends PelisWeb{
     private String carrusel;
     private String pelicula;
     private String peliculaPrincipal;
