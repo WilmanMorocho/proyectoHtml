@@ -8,7 +8,7 @@ package evaluacion2u;
  *
  * @author Usuario Pc
  */
-public class RecienteList {
+public class RecienteList extends PelisWeb{
     private String encabezado;
     private String peliculaRecienteList;
     
