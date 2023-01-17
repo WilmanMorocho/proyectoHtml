@@ -9,6 +9,7 @@ package evaluacion2u;
  * @author Usuario Pc
  */
 public class DisponibleList extends PelisWeb{
+    
     private String encabezado;
     private String peliculaDisponibleList;
     
